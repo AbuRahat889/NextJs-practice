@@ -21,7 +21,7 @@ const Navabr = () => {
     },
   ];
   const handeler = () => {
-    router.push("/signin");
+    router.push("/signIn");
   };
   return (
     <div className="navbar bg-green-500 text-white ">
