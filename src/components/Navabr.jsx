@@ -19,6 +19,10 @@ const Navabr = () => {
       title: "Contact",
       path: "/contact",
     },
+    {
+      title: "Blogs",
+      path: "/blogs",
+    },
   ];
   const handeler = () => {
     router.push("/signIn");
