@@ -23,6 +23,10 @@ const Navabr = () => {
       title: "Blogs",
       path: "/blogs",
     },
+    {
+      title: "Catagorie",
+      path: "/catagories",
+    },
   ];
   const handeler = () => {
     router.push("/signIn");
