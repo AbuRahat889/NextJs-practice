@@ -5,7 +5,6 @@ import React from "react";
 
 const BlogsPage = async () => {
   const postData = await getData();
-  // console.log(postData);
 
   return (
     <div className=" max-w-screen-xl mx-auto mt-10 ">
@@ -19,7 +18,7 @@ const BlogsPage = async () => {
             <div className="card bg-primary text-primary-content w-96">
               <div className="card-body">
                 <h2 className="card-title">{infos.title}!</h2>
-
+                <h1>{infos.id}</h1>
                 <div className="card-actions justify-end">
                   <button className="btn">
                     <Link href={`/blogs/${infos.id}`}>view</Link>
