@@ -1,15 +1,13 @@
+// import { getData } from "@/Services/postApi";
 import React from "react";
 
-const page = ({ params }) => {
-  const details = data.find((detail) => detail.id == params.id);
+const page = async () => {
+  
+  // const details = postInfo.find((detail) => detail.id == postInfo.id);
   return (
     <div className="max-w-screen-xl mx-auto ">
       <div className="border-2 border-pink-500 p-5 m-5 rounded-none">
-        <h1>details {params.id}</h1>
-        <h1>Name : {details.name}</h1>
-        <h1>profession : {details.profession}</h1>
-        <h1>hobbies : {details.hobbies}</h1>
-        <h1>about_profession: : {details.about_profession}</h1>
+        <h1>this is details page</h1>
       </div>
     </div>
   );
