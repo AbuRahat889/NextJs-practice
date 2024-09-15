@@ -12,8 +12,8 @@ const Navabr = () => {
       path: "/",
     },
     {
-      title: "About",
-      path: "/about",
+      title: "Meals",
+      path: "/meals",
     },
     {
       title: "Contact",
@@ -28,9 +28,7 @@ const Navabr = () => {
       path: "/catagories",
     },
   ];
-  const handeler = () => {
-    router.push("/signIn");
-  };
+
   return (
     <div className="navbar bg-green-500 text-white ">
       <div className="navbar bg-green-500 text-white max-w-screen-xl mx-auto">
@@ -87,7 +85,7 @@ const Navabr = () => {
           </ul>
         </div>
         <div className="navbar-end">
-          <button onClick={handeler}>Sing in</button>
+          <button>Sing in</button>
         </div>
       </div>
     </div>
