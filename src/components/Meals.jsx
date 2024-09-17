@@ -61,14 +61,17 @@ const Meals = () => {
               className="border-2 border-green-500 mb-5 flex gap-10 p-5 rounded-xl"
             >
               <Image
-              className="rounded-l-xl"
+                className="rounded-l-xl"
                 src={info.strMealThumb}
                 alt={info.strMeal}
                 height={300}
                 width={300}
               ></Image>
-              <h1>this is {info?.idMeal} </h1>
-              <h1>{info.strInstructions}</h1>
+              <div>
+                <h1>this is {info?.idMeal} </h1>
+                <h1 className="text-xl font-bold">{info?.strMeal}</h1>
+                <h1>{info.strInstructions}</h1>
+              </div>
             </div>
           ))}
         {error && <h2>No Data Found</h2>}
